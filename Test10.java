@@ -1,17 +1,16 @@
 
-public class Test4 {
+public class Test10 {
     public static void main(String[] args) {
       int n=5;
-      int k=1;
+      char ch='a';
       for(int i=0;i<n;i++)
       {
           System.out.print(ch+ " ");
           if(i<n/2){
-          k--;
+          ch++;
           }
           else{
-          k++;}
+          ch--;}
       }
     }
   }  
-}
